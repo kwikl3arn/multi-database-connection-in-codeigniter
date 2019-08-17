@@ -1,6 +1,6 @@
 <?php
 
-class ee_comp_model extends CI_Model
+class Demo_model extends CI_Model
 {
 
     public function __construct()
