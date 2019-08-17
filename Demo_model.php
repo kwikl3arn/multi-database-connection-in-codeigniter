@@ -24,7 +24,7 @@ class Demo_model extends CI_Model
         return $query->result();
 
     }
-      public function new_books($empid)
+      public function new_books()
     {
         $this->db2->select("*");
         $this->db2->from("books2019");
